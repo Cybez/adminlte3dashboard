@@ -23,6 +23,9 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 
 
+
+
+
 //Users 
 Route::get('/getregister', [App\Http\Controllers\UserController::class, 'createregister']);
 Route::post('/register', [App\Http\Controllers\UserController::class, 'storeregister']);
